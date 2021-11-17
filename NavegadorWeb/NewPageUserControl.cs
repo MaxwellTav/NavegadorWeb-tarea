@@ -10,11 +10,9 @@ using System.Windows.Forms;
 
 namespace NavegadorWeb
 {
-    public partial class Form1 : Form
+    public partial class NewPageUserControl : UserControl
     {
-        public Form1()
-        {
-            InitializeComponent();
-        }
+        public NewPageUserControl()
+        { InitializeComponent(); }
     }
 }
